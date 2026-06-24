@@ -175,58 +175,6 @@ InterviewIQ
 
 ---
 
-## 🚀 Getting Started
-
-### 1️⃣ Clone Repository
-
-```bash
-git clone https://github.com/AnujGangwar01/InterviewIQ.git
-
-cd InterviewIQ
-```
-
----
-
-### 2️⃣ Backend Setup
-
-```bash
-cd server
-
-npm install
-```
-
-Create a `.env` file:
-
-```env
-PORT=5000
-
-MONGO_URI=your_mongodb_uri
-
-JWT_SECRET=your_jwt_secret
-
-GEMINI_API_KEY=your_gemini_api_key
-```
-
-Run the backend:
-
-```bash
-npm run dev
-```
-
----
-
-### 3️⃣ Frontend Setup
-
-```bash
-cd client
-
-npm install
-
-npm run dev
-```
-
----
-
 ## 🌍 Live Application
 
 ### 🚀 Demo
