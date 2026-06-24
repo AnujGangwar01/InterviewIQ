@@ -187,7 +187,7 @@ https://interviewiq-frontend-ixyk.onrender.com/
 
 ## 🏠 Landing Page
 
-<img width="100%" src="./screenshots/Hero page.png"/>
+<img width="100%" src="./screenshoot/Hero page.png"/>
 
 > Modern landing page introducing InterviewIQ with AI-powered interview features.
 
@@ -195,7 +195,7 @@ https://interviewiq-frontend-ixyk.onrender.com/
 
 ## 🔐 Authentication
 
-<img width="100%" src="./screenshots/login.png"/>
+<img width="100%" src="./screenshoot/Google Sign In Popup.png"/>
 
 > Google Authentication for secure and seamless sign-in.
 
@@ -203,23 +203,15 @@ https://interviewiq-frontend-ixyk.onrender.com/
 
 ## 🎯 Interview Setup
 
-<img width="100%" src="./screenshots/interview-setup.png"/>
+<img width="100%" src="./screenshoot/Interview Setup Form.png"/>
 
 > Select job role, experience level, interview type, and optionally upload a resume.
 
 ---
 
-## 🤖 AI Interview Session
-
-<img width="100%" src="./screenshots/interview-session.png"/>
-
-> Interactive AI-powered mock interview experience with personalized questions.
-
----
-
 ## 📊 AI Features
 
-<img width="100%" src="./screenshots/ai-features.png"/>
+<img width="100%" src="./screenshoot/AI Capabilities.png"/>
 
 > AI answer evaluation, resume-based interviews, performance analytics, and downloadable reports.
 
@@ -227,15 +219,15 @@ https://interviewiq-frontend-ixyk.onrender.com/
 
 ## 🎭 Interview Modes
 
-<img width="100%" src="./screenshots/interview-modes.png"/>
+<img width="100%" src="./screenshoot/Multiple Modes.png"/>
 
-> Multiple interview modes including Technical, HR, and confidence analysis.
+> Multiple interview modes including Technical and HR interviews.
 
 ---
 
 ## 💳 Pricing Plans
 
-<img width="100%" src="./screenshots/pricing.png"/>
+<img width="100%" src="./screenshoot/Pricing Page.png"/>
 
 > Flexible pricing plans with interview credits and premium features.
 
@@ -243,17 +235,17 @@ https://interviewiq-frontend-ixyk.onrender.com/
 
 ## 💳 Secure Payment Gateway
 
-<img width="100%" src="./screenshots/payment.png"/>
+<img width="100%" src="./screenshoot/Razorpay Payment.png"/>
 
-> Razorpay integration for secure credit purchases.
+> Razorpay integration for secure and seamless payments.
 
 ---
 
-## 📈 Interview Dashboard & History
+## 🤖 AI Interview Setup
 
-<img width="100%" src="./screenshots/dashboard.png"/>
+<img width="100%" src="./screenshoot/Screenshot 2026-06-25 003657.png"/>
 
-> Track interview history, performance analytics, and AI-generated feedback.
+> Configure interview role, experience, interview type, and resume before starting the AI interview.
 ---
 
 ## 🎯 Future Improvements
