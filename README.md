@@ -1,76 +1,335 @@
-# 🚀 InterviewIQ
+# 🚀 InterviewIQ – AI-Powered Mock Interview Platform
 
-An AI-powered mock interview platform designed to help students and professionals ace technical and HR interviews through personalized AI-generated questions, real-time feedback, and granular performance tracking.
+<div align="center">
 
-🌐 **Live Demo:** [interviewiq-frontend-ixyk.onrender.com](https://interviewiq-frontend-ixyk.onrender.com/)
+<h1>🎯 InterviewIQ</h1>
 
----
+<p>
+AI-powered interview preparation platform that helps students and professionals practice technical & HR interviews with personalized AI-generated questions, instant feedback, and performance tracking.
+</p>
 
-## 📊 Tech Stack & Badges
+<p>
+<a href="https://interviewiq-frontend-ixyk.onrender.com/">🌐 Live Demo</a> •
+<a href="https://github.com/AnujGangwar01/InterviewIQ">📂 Repository</a>
+</p>
 
-![React](https://img.shields.io/badge/React-19-61DAFB?style=for-the-badge&logo=react&logoColor=black)
-![Node.js](https://img.shields.io/badge/Node.js-v20-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
-![MongoDB](https://img.shields.io/badge/MongoDB-Atlas-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
-![Google Gemini](https://img.shields.io/badge/Google_Gemini-AI-8E44AD?style=for-the-badge&logo=googlegemini&logoColor=white)
-![JWT](https://img.shields.io/badge/Auth-JWT-000000?style=for-the-badge&logo=jsonwebtokens&logoColor=white)
-![TailwindCSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwindcss&logoColor=white)
-![License](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)
+![React](https://img.shields.io/badge/React-19-61DAFB?logo=react)
+![Node.js](https://img.shields.io/badge/Node.js-Express-339933?logo=node.js)
+![MongoDB](https://img.shields.io/badge/MongoDB-Atlas-47A248?logo=mongodb)
+![JWT](https://img.shields.io/badge/Auth-JWT-orange)
+![Google Gemini](https://img.shields.io/badge/AI-Gemini-8E75B2)
+![Render](https://img.shields.io/badge/Deployment-Render-46E3B7)
+![License](https://img.shields.io/badge/License-MIT-blue)
 
----
-
-## 📖 About the Project
-
-**InterviewIQ** is a comprehensive full-stack MERN platform that bridges the gap between preparation and execution. By leveraging the **Google Gemini API**, it provides dynamic, resume-tailored interview simulations that mimic real-world technical and behavioral hiring loops. 
-
-Whether you are preparing for tech internships, campus placements, or lateral corporate transitions, InterviewIQ provides a comprehensive analytics playground to fine-tune your performance.
-
-### ✨ Key Features
-
-* 🔐 **Secure Authentication:** Robust JWT-based registration, login, and protected routing.
-* 📄 **Smart Resume Parsing:** Upload your resume to contextually ground the AI's question bank.
-* 🤖 **AI Interviewer:** Dynamic, multi-turn mock interview sessions driven by LLMs.
-* 📊 **Deep-Dive Feedback:** Instant breakdown scoring your technical accuracy, communication style, and areas of improvement.
-* 📈 **History Dashboard:** Track your historical mock scores over time with comprehensive visual analytics.
-* 📱 **Fully Responsive UI:** Polished user interface built with Vite, React, and Tailwind CSS optimized for all viewports.
+</div>
 
 ---
 
-## 🛠️ Architecture & Tech Stack
+## 📌 Overview
+
+InterviewIQ is a full-stack AI interview preparation platform built using the MERN Stack and Google Gemini AI.
+
+The platform simulates real interview experiences by generating personalized interview questions, evaluating responses, and providing intelligent feedback to help users improve communication, technical knowledge, and confidence.
+
+Whether you're preparing for:
+
+* 🎓 Campus Placements
+* 💼 Software Engineering Roles
+* 🚀 Internships
+* 📊 Technical Interviews
+* 🗣️ HR Interviews
+
+InterviewIQ helps you practice smarter and perform better.
+
+---
+
+## ✨ Key Features
+
+### 🔐 Authentication & Security
+
+* Secure JWT Authentication
+* User Registration & Login
+* Password Hashing using bcrypt
+* Protected Routes
+
+### 🤖 AI-Powered Interviews
+
+* Dynamic Question Generation
+* Technical & HR Interview Support
+* Personalized Interview Sessions
+* Google Gemini Integration
+
+### 📊 Smart Feedback System
+
+* AI-generated Performance Review
+* Strength & Weakness Analysis
+* Improvement Suggestions
+* Interview Score Evaluation
+
+### 📁 Resume Management
+
+* Upload Resume
+* Store Candidate Information
+* Generate Customized Questions
+
+### 📈 Progress Tracking
+
+* Interview History
+* Previous Attempts
+* Performance Monitoring
+* Learning Progress Analysis
+
+### 📱 Modern UI/UX
+
+* Fully Responsive Design
+* Clean Dashboard Interface
+* Mobile Friendly
+* Fast & Interactive Experience
+
+---
+
+## 🏗️ System Architecture
+
+```text
+                    ┌─────────────────┐
+                    │     Client      │
+                    │   React + Vite  │
+                    └────────┬────────┘
+                             │
+                             ▼
+                    ┌─────────────────┐
+                    │   Express API   │
+                    │     Node.js     │
+                    └────────┬────────┘
+                             │
+          ┌──────────────────┼──────────────────┐
+          ▼                  ▼                  ▼
+ ┌──────────────┐   ┌──────────────┐   ┌──────────────┐
+ │ MongoDB Atlas│   │ JWT Auth     │   │ Gemini AI    │
+ │ Database     │   │ Security     │   │ Question Gen │
+ └──────────────┘   └──────────────┘   └──────────────┘
+```
+
+---
+
+## 🛠️ Tech Stack
 
 ### Frontend
-* **Core:** React.js (v19) & React Router DOM
-* **Styling:** Tailwind CSS
-* **Build Tool:** Vite
-* **HTTP Client:** Axios
+
+| Technology   | Purpose         |
+| ------------ | --------------- |
+| React.js     | UI Development  |
+| Vite         | Fast Build Tool |
+| Tailwind CSS | Styling         |
+| Axios        | API Requests    |
+| React Router | Routing         |
 
 ### Backend
-* **Runtime & Framework:** Node.js, Express.js
-* **Database:** MongoDB Atlas via Mongoose ODM
-* **Security:** JSON Web Tokens (JWT), `bcrypt.js` (password hashing), CORS
-* **File Handling:** Multer (for seamless resume parsing uploads)
 
-### AI Integration
-* **Engine:** Google Gemini API 
+| Technology    | Purpose             |
+| ------------- | ------------------- |
+| Node.js       | Runtime Environment |
+| Express.js    | REST APIs           |
+| MongoDB Atlas | Database            |
+| Mongoose      | ODM                 |
+| JWT           | Authentication      |
+| bcrypt.js     | Password Security   |
+| Multer        | File Uploads        |
+
+### AI
+
+| Technology        | Purpose                                  |
+| ----------------- | ---------------------------------------- |
+| Google Gemini API | Interview Question Generation & Feedback |
 
 ---
 
 ## 📂 Project Structure
 
-```text
+```bash
 InterviewIQ
 │
-├── client/              # Frontend React application (Vite setup)
-│   ├── src/
-│   ├── public/
+├── client
+│   ├── public
+│   ├── src
+│   │   ├── components
+│   │   ├── pages
+│   │   ├── hooks
+│   │   ├── services
+│   │   └── assets
+│   │
 │   └── package.json
 │
-├── server/              # Backend Express REST API
-│   ├── config/          # Database & configuration setups
-│   ├── controllers/     # Request handlers & logic layers
-│   ├── middleware/      # Auth & validation middlewares
-│   ├── models/          # Mongoose schemas
-│   ├── routes/          # Express route declarations
-│   ├── utils/           # Helper scripts & Gemini prompts
+├── server
+│   ├── config
+│   ├── controllers
+│   ├── middleware
+│   ├── models
+│   ├── routes
+│   ├── utils
+│   ├── uploads
 │   └── package.json
 │
 └── README.md
+```
+
+---
+
+## 🚀 Getting Started
+
+### 1️⃣ Clone Repository
+
+```bash
+git clone https://github.com/AnujGangwar01/InterviewIQ.git
+
+cd InterviewIQ
+```
+
+---
+
+### 2️⃣ Backend Setup
+
+```bash
+cd server
+
+npm install
+```
+
+Create a `.env` file:
+
+```env
+PORT=5000
+
+MONGO_URI=your_mongodb_uri
+
+JWT_SECRET=your_jwt_secret
+
+GEMINI_API_KEY=your_gemini_api_key
+```
+
+Run the backend:
+
+```bash
+npm run dev
+```
+
+---
+
+### 3️⃣ Frontend Setup
+
+```bash
+cd client
+
+npm install
+
+npm run dev
+```
+
+---
+
+## 🌍 Live Application
+
+### 🚀 Demo
+
+https://interviewiq-frontend-ixyk.onrender.com/
+
+---
+
+## 📸 Screenshots
+
+### 🏠 Home Page
+
+<img width="100%" src="./screenshots/home.png"/>
+
+### 📊 Dashboard
+
+<img width="100%" src="./screenshots/dashboard.png"/>
+
+### 🤖 AI Interview Session
+
+<img width="100%" src="./screenshots/interview.png"/>
+
+### 📈 AI Feedback
+
+<img width="100%" src="./screenshots/feedback.png"/>
+
+> Replace screenshots with actual images from your application.
+
+---
+
+## 🎯 Future Improvements
+
+* 🎙️ Voice-Based Interviews
+* 🎥 Webcam Recording
+* 📊 Advanced Analytics Dashboard
+* 📅 Interview Scheduling
+* 🏢 Company-Specific Interview Sets
+* 🌙 Dark Mode
+* 📧 Email Reports
+* 📱 Progressive Web App (PWA)
+* 🧠 AI Resume Scoring
+* 🎯 Personalized Learning Roadmaps
+
+---
+
+## 📊 Project Highlights
+
+✅ Full-Stack MERN Application
+
+✅ AI-Powered Interview Generation
+
+✅ Secure JWT Authentication
+
+✅ Resume Upload System
+
+✅ Real-Time Feedback Engine
+
+✅ Cloud Database Integration
+
+✅ Production Deployment on Render
+
+---
+
+## 👨‍💻 Developer
+
+### Anuj Gangwar
+
+🎓 Integrated Master of Technology (Applied Geophysics)
+
+🏛️ IIT (ISM) Dhanbad
+
+🔗 GitHub: https://github.com/AnujGangwar01
+
+🔗 LinkedIn: https://www.linkedin.com/in/anujgangwar01/
+
+---
+
+## 🤝 Contributing
+
+Contributions are welcome!
+
+```bash
+Fork → Clone → Create Branch → Commit → Push → Pull Request
+```
+
+---
+
+## ⭐ Support
+
+If you found this project useful:
+
+🌟 Star the Repository
+
+🍴 Fork the Project
+
+📢 Share with Others
+
+Your support motivates me to build more impactful open-source projects.
+
+---
+
+## 📄 License
+
+This project is licensed under the MIT License.
+
+Made with ❤️ by Anuj Gangwar
