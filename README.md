@@ -243,7 +243,7 @@ https://interviewiq-frontend-ixyk.onrender.com/
 
 ## 🤖 AI Interview Setup
 
-<img width="100%" src="./screenshoot/Screenshot 2026-06-25 003657.png"/>
+<img width="100%" src="./screenshoot/nterview Setup Form.png"/>
 
 > Configure interview role, experience, interview type, and resume before starting the AI interview.
 ---
