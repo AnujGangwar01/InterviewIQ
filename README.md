@@ -98,7 +98,8 @@ PrepPilot
 ## Clone the Repository
 
 ```bash
-git clone https://github.com/AnujGangwar01/PrepPilot.git
+git clone https://github.com/AnujGangwar01/InterviewIQ/tree/main
+
 ```
 
 > Replace the repository URL above if your GitHub repository has a different name.
