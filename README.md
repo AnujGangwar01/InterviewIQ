@@ -251,15 +251,6 @@ https://interviewiq-frontend-ixyk.onrender.com/
 🔗 LinkedIn: https://www.linkedin.com/in/anujgangwar01/
 
 ---
-
-## 🤝 Contributing
-
-Contributions are welcome!
-
-```bash
-Fork → Clone → Create Branch → Commit → Push → Pull Request
-```
-
 ---
 
 ## ⭐ Support
