@@ -1,82 +1,163 @@
-# 🚀 InterviewIQ
+# 🚀 InterviewIQ – AI-Powered Mock Interview Platform
 
-![React](https://img.shields.io/badge/React-19-blue)
-![Node.js](https://img.shields.io/badge/Node.js-Express-green)
-![MongoDB](https://img.shields.io/badge/MongoDB-Atlas-green)
+<div align="center">
+
+<h1>🎯 InterviewIQ</h1>
+
+<p>
+AI-powered interview preparation platform that helps students and professionals practice technical & HR interviews with personalized AI-generated questions, instant feedback, and performance tracking.
+</p>
+
+<p>
+<a href="https://interviewiq-frontend-ixyk.onrender.com/">🌐 Live Demo</a> •
+<a href="https://github.com/AnujGangwar01/InterviewIQ">📂 Repository</a>
+</p>
+
+![React](https://img.shields.io/badge/React-19-61DAFB?logo=react)
+![Node.js](https://img.shields.io/badge/Node.js-Express-339933?logo=node.js)
+![MongoDB](https://img.shields.io/badge/MongoDB-Atlas-47A248?logo=mongodb)
 ![JWT](https://img.shields.io/badge/Auth-JWT-orange)
-![Gemini AI](https://img.shields.io/badge/AI-Google_Gemini-purple)
+![Google Gemini](https://img.shields.io/badge/AI-Gemini-8E75B2)
+![Render](https://img.shields.io/badge/Deployment-Render-46E3B7)
 ![License](https://img.shields.io/badge/License-MIT-blue)
 
-# 🚀 InterviewIQ – AI Interview Preparation Platform
-
-> An AI-powered mock interview platform that helps students and professionals prepare for technical and HR interviews through personalized AI-generated questions, real-time feedback, and performance tracking.
-
-🌐 **Live Demo:** https://interviewiq-frontend-ixyk.onrender.com/
+</div>
 
 ---
 
-# 📖 About the Project
+## 📌 Overview
 
-**InterviewIQ** is a full-stack AI-powered interview preparation platform built using the MERN Stack. It enables users to practice mock interviews, receive AI-generated feedback, and improve their interview skills through personalized interview sessions powered by Google Gemini AI.
+InterviewIQ is a full-stack AI interview preparation platform built using the MERN Stack and Google Gemini AI.
 
-Whether you're preparing for internships, placements, or professional job interviews, PrepPilot provides a realistic interview experience to help you build confidence.
+The platform simulates real interview experiences by generating personalized interview questions, evaluating responses, and providing intelligent feedback to help users improve communication, technical knowledge, and confidence.
 
----
+Whether you're preparing for:
 
-# ✨ Features
+* 🎓 Campus Placements
+* 💼 Software Engineering Roles
+* 🚀 Internships
+* 📊 Technical Interviews
+* 🗣️ HR Interviews
 
-* 🔐 Secure User Authentication (JWT)
-* 👤 User Registration & Login
-* 🤖 AI-Powered Interview Question Generation
-* 📄 Resume Upload & Management
-* 💬 Interactive Mock Interview Sessions
-* 📊 AI-Based Interview Feedback
-* 📈 Interview History & Progress Tracking
-* 📱 Fully Responsive Design
-* ☁️ MongoDB Atlas Cloud Database
-* 🚀 Deployed on Render
+InterviewIQ helps you practice smarter and perform better.
 
 ---
 
-# 🛠️ Tech Stack
+## ✨ Key Features
 
-## Frontend
+### 🔐 Authentication & Security
 
-* React.js
-* React Router DOM
-* Axios
-* Tailwind CSS
-* Vite
+* Secure JWT Authentication
+* User Registration & Login
+* Password Hashing using bcrypt
+* Protected Routes
 
-## Backend
+### 🤖 AI-Powered Interviews
 
-* Node.js
-* Express.js
-* MongoDB
-* Mongoose
-* JWT Authentication
-* bcrypt.js
-* Multer
+* Dynamic Question Generation
+* Technical & HR Interview Support
+* Personalized Interview Sessions
+* Google Gemini Integration
 
-## AI Integration
+### 📊 Smart Feedback System
 
-* Google Gemini API
+* AI-generated Performance Review
+* Strength & Weakness Analysis
+* Improvement Suggestions
+* Interview Score Evaluation
 
-## Deployment
+### 📁 Resume Management
 
-* Render
-* MongoDB Atlas
+* Upload Resume
+* Store Candidate Information
+* Generate Customized Questions
+
+### 📈 Progress Tracking
+
+* Interview History
+* Previous Attempts
+* Performance Monitoring
+* Learning Progress Analysis
+
+### 📱 Modern UI/UX
+
+* Fully Responsive Design
+* Clean Dashboard Interface
+* Mobile Friendly
+* Fast & Interactive Experience
 
 ---
 
-# 📂 Project Structure
+## 🏗️ System Architecture
 
 ```text
-PrepPilot
+                    ┌─────────────────┐
+                    │     Client      │
+                    │   React + Vite  │
+                    └────────┬────────┘
+                             │
+                             ▼
+                    ┌─────────────────┐
+                    │   Express API   │
+                    │     Node.js     │
+                    └────────┬────────┘
+                             │
+          ┌──────────────────┼──────────────────┐
+          ▼                  ▼                  ▼
+ ┌──────────────┐   ┌──────────────┐   ┌──────────────┐
+ │ MongoDB Atlas│   │ JWT Auth     │   │ Gemini AI    │
+ │ Database     │   │ Security     │   │ Question Gen │
+ └──────────────┘   └──────────────┘   └──────────────┘
+```
+
+---
+
+## 🛠️ Tech Stack
+
+### Frontend
+
+| Technology   | Purpose         |
+| ------------ | --------------- |
+| React.js     | UI Development  |
+| Vite         | Fast Build Tool |
+| Tailwind CSS | Styling         |
+| Axios        | API Requests    |
+| React Router | Routing         |
+
+### Backend
+
+| Technology    | Purpose             |
+| ------------- | ------------------- |
+| Node.js       | Runtime Environment |
+| Express.js    | REST APIs           |
+| MongoDB Atlas | Database            |
+| Mongoose      | ODM                 |
+| JWT           | Authentication      |
+| bcrypt.js     | Password Security   |
+| Multer        | File Uploads        |
+
+### AI
+
+| Technology        | Purpose                                  |
+| ----------------- | ---------------------------------------- |
+| Google Gemini API | Interview Question Generation & Feedback |
+
+---
+
+## 📂 Project Structure
+
+```bash
+InterviewIQ
 │
 ├── client
-│   ├── src
 │   ├── public
+│   ├── src
+│   │   ├── components
+│   │   ├── pages
+│   │   ├── hooks
+│   │   ├── services
+│   │   └── assets
+│   │
 │   └── package.json
 │
 ├── server
@@ -86,6 +167,7 @@ PrepPilot
 │   ├── models
 │   ├── routes
 │   ├── utils
+│   ├── uploads
 │   └── package.json
 │
 └── README.md
@@ -93,26 +175,19 @@ PrepPilot
 
 ---
 
-# ⚙️ Installation
+## 🚀 Getting Started
 
-## Clone the Repository
-
-```bash
-git clone https://github.com/AnujGangwar01/InterviewIQ/tree/main
-
-```
-
-> Replace the repository URL above if your GitHub repository has a different name.
-
-Move into the project directory:
+### 1️⃣ Clone Repository
 
 ```bash
-cd PrepPilot
+git clone https://github.com/AnujGangwar01/InterviewIQ.git
+
+cd InterviewIQ
 ```
 
 ---
 
-## Backend Setup
+### 2️⃣ Backend Setup
 
 ```bash
 cd server
@@ -120,19 +195,19 @@ cd server
 npm install
 ```
 
-Create a `.env` file inside the server directory.
+Create a `.env` file:
 
 ```env
 PORT=5000
 
-MONGO_URI=Your MongoDB Atlas URI
+MONGO_URI=your_mongodb_uri
 
-JWT_SECRET=Your Secret Key
+JWT_SECRET=your_jwt_secret
 
-GEMINI_API_KEY=Your Gemini API Key
+GEMINI_API_KEY=your_gemini_api_key
 ```
 
-Start the backend server:
+Run the backend:
 
 ```bash
 npm run dev
@@ -140,7 +215,7 @@ npm run dev
 
 ---
 
-## Frontend Setup
+### 3️⃣ Frontend Setup
 
 ```bash
 cd client
@@ -152,123 +227,109 @@ npm run dev
 
 ---
 
-# 🌐 Environment Variables
+## 🌍 Live Application
 
-```env
-PORT=
-MONGO_URI=
-JWT_SECRET=
-GEMINI_API_KEY=
-```
-
----
-
-# 📸 Screenshots
-
-## 🏠 Home Page
-
-*(Add Screenshot Here)*
-
----
-
-## 📊 Dashboard
-
-*(Add Screenshot Here)*
-
----
-
-## 🤖 AI Mock Interview
-
-*(Add Screenshot Here)*
-
----
-
-## 📈 AI Feedback
-
-*(Add Screenshot Here)*
-
----
-
-# 🚀 Deployment
-
-Frontend and Backend are deployed on **Render**.
-
-🌐 Live Demo:
+### 🚀 Demo
 
 https://interviewiq-frontend-ixyk.onrender.com/
 
 ---
 
-# 📈 Future Enhancements
+## 📸 Screenshots
 
-* 🎙️ Voice-Based AI Interviews
-* 📹 Webcam Interview Recording
-* 📊 Advanced Performance Analytics
-* 📅 Interview Scheduling
-* 🏆 Company-Wise Interview Preparation
-* 📱 Progressive Web App (PWA)
-* 🌙 Dark Mode
-* 📧 Email Notifications
-* 💼 Resume Scoring using AI
-* 🎯 Personalized Learning Roadmap
+### 🏠 Home Page
+
+<img width="100%" src="./screenshots/home.png"/>
+
+### 📊 Dashboard
+
+<img width="100%" src="./screenshots/dashboard.png"/>
+
+### 🤖 AI Interview Session
+
+<img width="100%" src="./screenshots/interview.png"/>
+
+### 📈 AI Feedback
+
+<img width="100%" src="./screenshots/feedback.png"/>
+
+> Replace screenshots with actual images from your application.
 
 ---
 
-# 🤝 Contributing
+## 🎯 Future Improvements
+
+* 🎙️ Voice-Based Interviews
+* 🎥 Webcam Recording
+* 📊 Advanced Analytics Dashboard
+* 📅 Interview Scheduling
+* 🏢 Company-Specific Interview Sets
+* 🌙 Dark Mode
+* 📧 Email Reports
+* 📱 Progressive Web App (PWA)
+* 🧠 AI Resume Scoring
+* 🎯 Personalized Learning Roadmaps
+
+---
+
+## 📊 Project Highlights
+
+✅ Full-Stack MERN Application
+
+✅ AI-Powered Interview Generation
+
+✅ Secure JWT Authentication
+
+✅ Resume Upload System
+
+✅ Real-Time Feedback Engine
+
+✅ Cloud Database Integration
+
+✅ Production Deployment on Render
+
+---
+
+## 👨‍💻 Developer
+
+### Anuj Gangwar
+
+🎓 Integrated Master of Technology (Applied Geophysics)
+
+🏛️ IIT (ISM) Dhanbad
+
+🔗 GitHub: https://github.com/AnujGangwar01
+
+🔗 LinkedIn: https://www.linkedin.com/in/anujgangwar01/
+
+---
+
+## 🤝 Contributing
 
 Contributions are welcome!
 
-1. Fork the repository
-
-2. Create your feature branch
-
 ```bash
-git checkout -b feature/NewFeature
+Fork → Clone → Create Branch → Commit → Push → Pull Request
 ```
-
-3. Commit your changes
-
-```bash
-git commit -m "Add new feature"
-```
-
-4. Push to your branch
-
-```bash
-git push origin feature/NewFeature
-```
-
-5. Open a Pull Request
 
 ---
 
-# 📄 License
+## ⭐ Support
+
+If you found this project useful:
+
+🌟 Star the Repository
+
+🍴 Fork the Project
+
+📢 Share with Others
+
+Your support motivates me to build more impactful open-source projects.
+
+---
+
+## 📄 License
 
 This project is licensed under the MIT License.
 
----
-
-# 👨‍💻 Author
-
-## Anuj Gangwar
-
-🎓 Integrated M.Tech in Applied Geophysics
-IIT (ISM) Dhanbad
-
-### GitHub
-
-https://github.com/AnujGangwar01
-
-### LinkedIn
-
-https://www.linkedin.com/in/anujgangwar01/
-
----
-
-# ⭐ Show Your Support
-
-If you found this project useful,
-
-⭐ Star the repository.
-
-Your support motivates me to build more open-source projects and innovative AI applications.
+Made with ❤️ by Anuj Gangwar
