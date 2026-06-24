@@ -187,7 +187,7 @@ https://interviewiq-frontend-ixyk.onrender.com/
 
 ## 🏠 Landing Page
 
-<img width="100%" src="C:\Users\agang\OneDrive\Pictures\Screenshots 1\Screenshot 2026-06-25 003327.png"/>
+<img width="100%" src="Hero page.png"/>
 
 > Modern landing page introducing InterviewIQ with AI-powered interview features.
 
