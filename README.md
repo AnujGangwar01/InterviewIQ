@@ -183,26 +183,77 @@ https://interviewiq-frontend-ixyk.onrender.com/
 
 ---
 
-## 📸 Screenshots
+# 📸 Screenshots
 
-### 🏠 Home Page
+## 🏠 Landing Page
 
-<img width="100%" src="./screenshots/home.png"/>
+<img width="100%" src="C:\Users\agang\OneDrive\Pictures\Screenshots 1\Screenshot 2026-06-25 003327.png"/>
 
-### 📊 Dashboard
+> Modern landing page introducing InterviewIQ with AI-powered interview features.
+
+---
+
+## 🔐 Authentication
+
+<img width="100%" src="./screenshots/login.png"/>
+
+> Google Authentication for secure and seamless sign-in.
+
+---
+
+## 🎯 Interview Setup
+
+<img width="100%" src="./screenshots/interview-setup.png"/>
+
+> Select job role, experience level, interview type, and optionally upload a resume.
+
+---
+
+## 🤖 AI Interview Session
+
+<img width="100%" src="./screenshots/interview-session.png"/>
+
+> Interactive AI-powered mock interview experience with personalized questions.
+
+---
+
+## 📊 AI Features
+
+<img width="100%" src="./screenshots/ai-features.png"/>
+
+> AI answer evaluation, resume-based interviews, performance analytics, and downloadable reports.
+
+---
+
+## 🎭 Interview Modes
+
+<img width="100%" src="./screenshots/interview-modes.png"/>
+
+> Multiple interview modes including Technical, HR, and confidence analysis.
+
+---
+
+## 💳 Pricing Plans
+
+<img width="100%" src="./screenshots/pricing.png"/>
+
+> Flexible pricing plans with interview credits and premium features.
+
+---
+
+## 💳 Secure Payment Gateway
+
+<img width="100%" src="./screenshots/payment.png"/>
+
+> Razorpay integration for secure credit purchases.
+
+---
+
+## 📈 Interview Dashboard & History
 
 <img width="100%" src="./screenshots/dashboard.png"/>
 
-### 🤖 AI Interview Session
-
-<img width="100%" src="./screenshots/interview.png"/>
-
-### 📈 AI Feedback
-
-<img width="100%" src="./screenshots/feedback.png"/>
-
-> Replace screenshots with actual images from your application.
-
+> Track interview history, performance analytics, and AI-generated feedback.
 ---
 
 ## 🎯 Future Improvements
